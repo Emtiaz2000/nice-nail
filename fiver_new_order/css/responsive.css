@@ -1,0 +1,220 @@
+@media (max-width:1100px){
+    .sticky_product_details .sticky_img {
+        position: relative;
+        height:300px;
+        width:400px;
+    }
+    .sticky_product_details{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .product_details_scrollAnmi{
+        height:1600px;
+        width:80%;
+    }
+    .bottom_btn {
+        bottom:0;
+    }
+    .scroll_effect_poduct-5{
+        top:1300px
+    }
+}
+
+
+@media (max-width:1050px) {
+    .hero_section{
+        position: relative;
+        height:800px
+    }
+    .hero_left{
+        position: absolute;
+        top:35%;
+        width:100%;
+    }
+    .hero_right{
+        position: absolute;
+        top:0px;
+        height:400px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero_right_img{
+        height:180px;
+        width:450px;
+        border-radius: 100px;
+    }
+    .flower_hero {
+        top:-50px;
+        right:-10px;
+    }
+    
+}
+@media (max-width:850px) {
+    .logo{
+        left:44%;
+    }
+    .top_fixed_navigation{
+        align-items: flex-end;
+        height:95px;
+    }
+    .navigation_container{
+        justify-content: flex-end;
+        width:95%;
+    }
+    .navigation_container nav{
+        position:absolute;
+        bottom:0px;
+        left:0%;
+    }
+    .signup_getStart>h1{
+        font-size: 4rem;
+    }
+    .navigation_social_icons{
+        margin-right:10px;
+    }
+}
+
+@media (max-width:710px) {
+    .navigation_Email_language{
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+    }
+    
+    .nav_email,
+    .select_language{
+        margin:0px
+    }
+    .resources_product{
+        margin-top:5px;
+    }
+    .testemonial{
+        width:85%;
+    }
+    .top_fixed_navigation{
+        height:110px;
+    }
+}
+@media (max-width:675px) {
+    .product_details_scrollAnmi{
+        height:1780px;
+    }
+    
+    .scroll_effect_poduct-1{
+        top:310px;
+    }
+    .scroll_effect_poduct-2{
+        top:585px;
+    }
+    .scroll_effect_poduct-4{
+        top:1190px;
+    }
+    .scroll_effect_poduct-5{
+        top:1490px;
+    }
+   
+}
+@media (max-width:650px) {
+    .navigation_social_icons{
+        position:absolute;
+        bottom:0px;
+        right:1px;
+    }
+    .navigation_container{
+        justify-content: center;
+    }
+}
+
+@media (max-width:625px){
+    .top_fixed_navigation .navigation_social_icons{
+        right:20px;
+    }
+    .hero_section{
+        height:900px
+    }
+   
+    .product_details_scrollAnmi>h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:515px){
+    
+    .navigation_container nav{
+        bottom:-43px;
+    }
+    .navigation_social_icons{
+        transform:scale(.7);
+        bottom:-38px;
+    }
+    .product_details_scrollAnmi > p{
+        width:310px;
+    }
+    .scroll_effect_poduct-5 {
+        width: 330px;
+        left:5px;
+        height:270px;
+    }    
+    .bottom_btn{
+        width:300px
+    }
+    .moral_text{
+        font-size: 5.6rem;
+    }
+    .hero_right{
+        top:25px
+    }
+    .flower_hero {
+        right:10px;
+    }
+    .visit_pages .visit_page_link{
+        width:305px;
+        font-size: 1rem;
+    }
+    .navigation_Email_language{
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+    }
+    .nav_email{
+        font-size: .9rem;
+    }
+    .testemonial{
+        width:95%;
+    }
+    .testemonial>p{
+        width:300px;
+    }
+    .signup_getStart>h1{
+        font-size: 2.5rem;
+    }
+    .signup_getStart>p{
+        width:340px;
+    }
+    .top_fixed_navigation{
+        height:130px;
+    }
+}
+@media (max-width:400px) {
+    
+    .navigation_container nav{
+        left:0%;
+    }
+    .hero_left_text {
+        margin-left: 5px;
+    }
+    .moral_text{
+        margin-left: 5px;
+    }
+    .hero_left_bottom_btn{
+        margin-left: 5px;
+    }
+    .hero_left_bottom_btn {
+        width:285px;
+        padding:0px 5px;
+    }
+}
